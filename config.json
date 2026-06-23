@@ -1,0 +1,16 @@
+{
+  "targetClan": "OMEN",
+  "username": "XtraOrdinary",
+  "whichGameMode": 0,
+  "authServerUrl": "https://echotestest.onrender.com/",
+  "loginUsername": "",
+  "loginPassword": "",
+  "lobbyServerUrl": "wss://npfp3p.territorial.io/s52/",
+  "verboseLogs": false,
+  "botProcesses": 0,
+  "waitForContest": false,
+  "buildNumber": 1130,
+  "multiBackline": false,
+  "attackPercent": 7,
+  "testMode": true
+}

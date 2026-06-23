@@ -1,0 +1,29 @@
+{
+  "name": "echo-bot-client",
+  "version": "1.0.0",
+  "private": true,
+  "bin": "alphabot.js",
+  "scripts": {
+    "start": "node auth-server.js",
+    "start:bot": "node alphabot.js",
+    "auth-server": "node auth-server.js",
+    "build:exe": "pkg . --targets node20-win-x64 --output dist/echoBotClient.exe"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.20.0"
+  },
+  "pkg": {
+    "scripts": [
+      "alphabot.js",
+      "modules/**/*.js"
+    ],
+    "assets": [],
+    "targets": [
+      "node20-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}
