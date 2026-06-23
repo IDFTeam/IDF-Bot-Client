@@ -4,6 +4,10 @@
 **SETUP**
 
 In the folder run
-```npm i```
+```bash
+npm i
+```
 Then simply edit your config to ur likings and run the bot with
-```node idfbot```
+   ```bash
+   node idfbot.js
+   ```
